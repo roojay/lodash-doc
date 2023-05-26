@@ -126,7 +126,7 @@ module.exports = function (generator) {
     hb.registerHelper('source', function (frame) {
         if (this.lineNumber) {
             return '<a' +
-                ' href="https://github.com/lodash/lodash/blob/' + opts.version + '/lodash.src.js#L' + this.lineNumber + '"' +
+                ' href="https://github.com/roojay520/lodash-doc/blob/master/lodash-src/lodash-zh.js#L' + this.lineNumber + '"' +
                 ' title="View in source."' +
                 ' target="github"' +
                 '>source</a>';
